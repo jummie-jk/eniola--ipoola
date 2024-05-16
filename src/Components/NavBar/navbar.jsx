@@ -2,7 +2,7 @@ import React from "react";
 import { useState, useEffect} from "react";
 import { Link } from "react-router-dom"
 import styled from 'styled-components';
-import logo from '../../assets/logonew.png'
+import logo from '../../assets/Fulfilled copy.png'
 import "./navbar.css"
 const Nav = styled.nav`
   display: flex;
@@ -111,8 +111,8 @@ export const NavBar = () => {
     return(
         <div className="navbar-main">
             <Nav>
-                {/* <div><img src={logo} alt="logo" className="NavLogo"/></div> */}
-                <div><p>Eniola Ipoola</p></div>
+                <div><img src={logo} alt="logo" className="NavLogo"/></div>
+                {/* <div><p>Eniola Ipoola</p></div> */}
                 <MobileNavToggle onClick={() => setIsMobileNavOpen(!isMobileNavOpen)}>
                     {isMobileNavOpen ? 'Close' : 'Menu'}
                 </MobileNavToggle>
