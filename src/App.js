@@ -1,25 +1,20 @@
-import logo from './logo.svg';
+import { RoutePage} from './Routes';
 import './App.css';
+import { NavBar } from './Components/NavBar/navbar';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+     <NavBar/>
+     <RoutePage />
+     <div className='copyright'>
+      {/* <p className='intro-mini'>© 2024 Ipoola Olajumoke</p> */}
+     </div>
+    
+    </>
+    
   );
 }
 
 export default App;
+

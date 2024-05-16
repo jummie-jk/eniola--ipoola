@@ -1,0 +1,266 @@
+.section{
+    padding: 4rem 6rem;
+}
+.homepage-intro-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.intro-text{
+    font-size: 60px;
+    font: 600;
+    font-family: "DM Sans", sans-serif;
+    text-transform: capitalize;
+    color: #181717
+}
+.intro-mini{
+    color: #606060;
+    font-family: "DM Sans", sans-serif;
+    font-size: 25px;
+}
+.my-image{
+    width: 500px;
+    height: auto;
+    border-radius: 16px;
+}
+
+/* Button */
+.contact-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 167px;
+    height: 54px;
+    /* padding: 10px 20px; */
+    background-color: #dddddd; 
+    color: #181717; 
+    border: 2px solid #181717;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: "DM Sans", sans-serif;
+    transition: background-color 0.3s;
+    border-radius: 100px;
+}
+
+.contact-button:hover {
+    background-color: #e6f7a2; 
+}
+
+.contact-icon {
+    margin-left: 12px;
+}
+.home-contact-div{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+}
+.home-contact-div div {
+    margin-right: 15px;
+}
+.rule{
+    border-color: #484848;
+    border-width: 0.2px; 
+}
+.header-text{
+    font-size: 78px;
+    font: 600;
+    font-family: "Bebas Neue", sans-serif;
+    text-transform: uppercase;
+}
+.about-section{
+    display: flex;
+    height: 70vh;
+    flex-wrap: nowrap;
+}
+.contact-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.grid-item{
+    flex-basis: 100%;
+}
+.about-text{
+    font-size: 20px;
+    font: 400;
+    font-family: "Manrope", sans-serif;
+    padding-bottom: 1rem;
+}
+.link a{
+    color: #D3E97A;
+    font-size: 16px;
+    font-family: "Manrope", sans-serif;
+    display:  inline-block;
+    margin-top: 1rem;
+}
+.underline{
+    border-bottom: 1px solid #D3E97A;
+    display: inline-block;
+    position: relative;
+}
+.intro-mini span{
+    color: #D3E97A;
+    border-bottom: 1px solid #D3E97A;
+    cursor: pointer;
+}
+.social-icon{
+    width: 32px;
+    height: 32px;
+    margin-right: 1rem;
+    margin-top: 2rem;
+}
+.pb-1{
+    padding-bottom: 1rem;
+}
+.more-text{
+    margin-top: 1.5rem;
+}
+
+
+@media screen and (min-width: 500px) {
+    .web-hide{
+        display: none;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .section{
+        padding: 3rem 2rem;
+    }
+    .intro-text{
+        font-size: 70px;
+        
+    }
+    .my-image{
+        margin-top: 2rem;
+    }
+    .my-image{
+        width: 400px;
+        height: auto;
+    }
+}
+@media screen and (max-width: 900px) {
+    .section{
+        padding: 3rem 2rem;
+    }
+    .homepage-intro-div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+       
+    }
+    .intro-text{
+        font-size: 50px;
+        
+    }
+    .my-image{
+        margin-top: 2rem;
+    }
+    .about-section{
+        display: flex;
+        height: 50vh;
+        flex-wrap: wrap;
+    }
+    .grid-item{
+        flex-basis: 100%;
+    }
+    .header-text{
+        font-size: 52px;
+    }
+}
+@media screen and (max-width: 700px) {
+    .about-section{
+        display: flex;
+        height: 60vh;
+        flex-wrap: wrap;
+    }
+    .grid-item{
+        flex-grow: 1; 
+        margin: 0;
+        flex-basis: content;
+    }
+    .about-text{
+        font-size: 18px;
+        padding-bottom: 1rem;
+    }
+    .contact-div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .view-all{
+        margin-top: 1rem;
+    }
+    .header-text{
+        font-size: 45px;
+    }
+    .intro-mini{
+        font-size: 17px;
+        line-height: 28px;
+        
+    }
+}
+@media screen and (max-width: 500px) {
+    .section{
+        padding: 3rem 2rem;
+    }
+    .intro-text{
+        font-size: 57px;
+        
+    }
+    .intro-mini{
+        font-size: 16px;
+        line-height: 28px;
+        
+    }
+    .my-image{
+        width: 350px;
+        height: auto;
+    }
+    .web-hide{
+        display: block;
+    }
+    .mobile-hide{
+        display: none;
+    }
+    .contact-button {
+        width: 150px;
+        height: 50px;
+        /* padding: 10px 20px; */
+       
+    }
+    .header-text{
+        font-size: 40px;
+    }
+
+    
+}
+@media screen and (max-width: 420px) {
+    .section{
+        padding: 3rem 2rem;
+    }
+    .intro-text{
+        font-size: 57px;
+        
+    }
+    .intro-mini{
+        font-size: 16px;
+        line-height: 28px;
+        
+    }
+    .my-image{
+        width: 320px;
+        height: auto;
+    }
+    .web-hide{
+        display: block;
+    }
+    .mobile-hide{
+        display: none;
+    }
+}
