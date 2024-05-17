@@ -119,7 +119,17 @@
 .more-text{
     margin-top: 1.5rem;
 }
-
+.featured-projects{
+    font-size: 40px;
+    font: 600;
+    font-family: "DM Sans", sans-serif;
+    text-transform: capitalize;
+    color: #181717;
+    margin-top: 3rem;
+}
+.view-all{
+    margin-bottom: 2rem;
+}
 
 @media screen and (min-width: 500px) {
     .web-hide{

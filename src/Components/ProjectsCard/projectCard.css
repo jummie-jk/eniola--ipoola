@@ -1,0 +1,168 @@
+.card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.image-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 32rem;
+    height: 20rem;
+    background-color: #606060;
+}
+.project-image{
+    width: 27rem;
+    height: auto;
+}
+.text-div{
+    width: 32rem;
+    height: 32rem;
+    margin-top: 7rem;
+}
+.flex{
+    display: flex;
+    flex-direction: row;
+    
+}
+.flex a{
+    color: #606060;
+    font-size: 16px;
+    font-family: "Manrope", sans-serif;
+   
+}
+.underline{
+    border-bottom: 1px solid #606060;
+    display: inline-block; 
+    position: relative;
+}
+.flex a p {
+    padding-right: 0.5rem;
+    padding-bottom: 0.2rem;
+}
+.div-link{
+    margin-top: 2rem; 
+}
+.pad-left{
+    margin-left: 2rem;
+}
+.project-details{
+    color: #181717;
+    font-family: "Manrope", sans-serif;
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 2rem;
+}
+.project-title{
+    color: #181717;
+    font-family: "Manrope", sans-serif;
+    font-size: 25px;
+    line-height: 28px;
+    margin: 2rem 0;
+}
+.flex-btw{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.live-info{
+    font-family: "Manrope", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    padding-bottom: 1rem;
+}
+.flex-btw p {
+    font-family: "Manrope", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 1rem 0;
+    color: #606060;
+    
+}
+@media screen and (max-width: 1100px) {
+    .section{
+        padding: 3rem 2rem;
+    }
+    .image-div{
+        width: 28rem;
+        height: 28rem;
+    }
+    .project-image{
+        width: 20rem;
+        height: auto;
+    }
+    .text-div{
+        width: 28rem;
+        height: 28rem;
+        margin-top: 2rem;
+    }
+}
+@media screen and (max-width: 1000px) {
+
+    .image-div{
+        width: 24rem;
+        height: 24rem;
+    }
+    .project-image{
+        width: 20rem;
+        height: auto;
+    }
+    .text-div{
+        width: 24rem;
+        height: 24rem;
+        margin-top: 2rem;
+    }
+    .project-details{
+        font-size: 16px;
+        line-height: 28px;
+        margin-bottom: 1rem;
+    }
+    .project-title{
+        font-size: 24px;
+        line-height: 28px;
+        margin-top: 1rem;
+    }
+    .live-info{
+        padding-bottom: 0.5rem;
+    }
+    .flex-btw p {
+        font-family: "Manrope", sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        padding: 0.5rem 0;
+        color: #606060;
+        
+    }
+    .section{
+        padding: 3rem 2.5rem;
+    }
+}
+@media screen and (max-width: 900px) {
+    .card{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    .section{
+        padding: 3rem 3rem;
+    }
+    
+}
+@media screen and (max-width: 500px) {
+    .image-div{
+        width: 20rem;
+        height: 20rem;
+        margin-top: 10rem;
+    }
+    .project-image{
+        width: 17rem;
+        height: auto;
+    }
+    .text-div{
+        width: 20rem;
+        height: 20rem;
+        margin-top: 4rem;
+    }
+}

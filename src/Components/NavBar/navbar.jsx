@@ -120,14 +120,14 @@ export const NavBar = () => {
                     <NavItem><a href="/">Home</a></NavItem>
                     <NavItem><a href="/all-projects">Projects</a></NavItem>
                     <NavItem><a href="/about">About</a></NavItem>
-                    <NavItem><a href="/contact">Blogs</a></NavItem>
+                    <NavItem><a href="/blogs">Blogs</a></NavItem>
                 </DesktopNav>
                 
                 <MobileNav isOpen={isMobileNavOpen}>
                   <NavItem><a href="/">Home</a></NavItem>
                   <NavItem><a href="/all-projects">Projects</a></NavItem>
                   <NavItem><a href="/about">About</a></NavItem>
-                  <NavItem><a href="/contact">Blogs</a></NavItem>
+                  <NavItem><a href="/blogs">Blogs</a></NavItem>
                 </MobileNav>
          </Nav>
          <NavOverlay isOpen={isMobileNavOpen} onClick={() => setIsMobileNavOpen(false)} />
