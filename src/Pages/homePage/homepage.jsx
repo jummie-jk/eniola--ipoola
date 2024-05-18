@@ -109,7 +109,7 @@ export const HomePage = () => {
             githublink="https://github.com/jummie-jk/Dashboard"
           />
         <div className="flex underline view-all">
-            <a href="/all-projects">View all projects</a>
+            <a href="/all-projects">View all projectss</a>
           </div>
           <hr />
         
