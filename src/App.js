@@ -17,8 +17,6 @@ function App() {
         <p className='intro-mini'>Email</p>
       </div>
      </div>
-    
-    
     </>
     
   );
