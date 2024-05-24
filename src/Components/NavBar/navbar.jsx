@@ -2,7 +2,7 @@ import React from "react";
 import { useState, useEffect} from "react";
 import { Link } from "react-router-dom"
 import styled from 'styled-components';
-import logo from '../../assets/Fulfilled copy.png'
+import logo from '../../assets/Fulfilled.png'
 import "./navbar.css"
 const Nav = styled.nav`
   display: flex;
@@ -118,14 +118,14 @@ export const NavBar = () => {
                 </MobileNavToggle>
                 <DesktopNav>
                     <NavItem><a href="/">Home</a></NavItem>
-                    <NavItem><a href="/all-projects">Projects</a></NavItem>
+                    {/* <NavItem><a href="/all-projects">Projects</a></NavItem> */}
                     <NavItem><a href="/about">About</a></NavItem>
                     <NavItem><a href="/blogs">Blogs</a></NavItem>
                 </DesktopNav>
                 
                 <MobileNav isOpen={isMobileNavOpen}>
                   <NavItem><a href="/">Home</a></NavItem>
-                  <NavItem><a href="/all-projects">Projects</a></NavItem>
+                  {/* <NavItem><a href="/all-projects">Projects</a></NavItem> */}
                   <NavItem><a href="/about">About</a></NavItem>
                   <NavItem><a href="/blogs">Blogs</a></NavItem>
                 </MobileNav>

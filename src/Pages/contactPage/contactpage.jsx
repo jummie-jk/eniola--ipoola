@@ -1,5 +1,5 @@
-import { NavBar } from "../../Components/NavBar/navbar"
-import { ContactForm } from "../../Components/Contact/contactPage"
+import { NavBar } from "../../Components/navbar/navbar"
+// import { ContactForm } from "../../Components/Contact/contactPage"
 import twitterr from '../../assets/twitter.png'
 import githubb from '../../assets/githubb.png'
 import instagramm from '../../assets/instagram.png'
@@ -27,7 +27,7 @@ export const ContactPage = () => {
                       </div>
                     </div>
                     <div>
-                            <ContactForm/>
+                            {/* <ContactForm/> */}
                     </div>
                 </div>
            </section>

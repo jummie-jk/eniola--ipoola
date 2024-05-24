@@ -1,0 +1,24 @@
+.footer-section{
+    margin: 1rem 5rem;
+  }
+  .footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .footer-socials{
+    display: flex;
+    flex-direction: row;
+  
+  }
+  .footer-socials p {
+    padding: 0 2rem;
+  }
+.footer a,
+.copyright{
+    font-size: 16px;
+    font-family: "Manrope", sans-serif;
+    display:  inline-block;
+    margin-top: 1rem;
+    color: #181717;
+}

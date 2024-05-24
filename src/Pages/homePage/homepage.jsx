@@ -1,4 +1,4 @@
-import { NavBar } from "../../Components/NavBar/navbar";
+import { NavBar } from "../../Components/navbar/navbar";
 import image from "../../assets/my-image.jpg";
 import dot from "../../assets/dot.png";
 import linkedln from "../../assets/linkedIn.png";
@@ -9,7 +9,7 @@ import twitterr from "../../assets/twitter.png";
 import githubb from "../../assets/githubb.png";
 import instagramm from "../../assets/instagram.png";
 import "./homepage.css";
-import { ProjectCard } from "../../Components/ProjectsCard/projectsCard";
+import { ProjectCard } from "../../Components/projectscard/projectsCard";
 import cryptous from "../../assets/cryptous-new.png";
 import dashboard from "../../assets/dashboard.png";
 import tasktracker from "../../assets/task-tracker.png";
@@ -108,9 +108,7 @@ export const HomePage = () => {
             projectlink="https://dashboardd-kit.vercel.app/"
             githublink="https://github.com/jummie-jk/Dashboard"
           />
-        <div className="flex underline view-all">
-            <a href="/all-projects">View all projectss</a>
-          </div>
+      
           <hr />
         
         </div>
