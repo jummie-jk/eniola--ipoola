@@ -85,11 +85,9 @@ export const AboutPage = () => {
               </div>
               <p className="doings top-pad">
                 Ensured a blend of creativity and functionality, contributing to
-                a 15% increase in user engagement and satisfaction. Worked on
-                the development of send.herrands.com, a project aimed at solving
-                specific client needs.
+                
               </p>
-            </div>
+            </div> <div className=""></div>
           </div>
         </div>
       </section>
