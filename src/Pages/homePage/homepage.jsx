@@ -81,12 +81,14 @@ export const HomePage = () => {
         <div>
           <ProjectCard
             // imageurl={cryptous}
-            projectTitle="Cryptous"
-            projectDescription="Cryptous is a website that provides an up-to-date daily coin information sourced from coingecko API."
+            projectTitle="Movies App"
+            projectDescription = 'The is a simple Android application that fetches movies from an
+            API and presents it in a user friendly interface. It uses a variety of layout such as LinearLayout, ScrollView, RecyclerView, and ConstraintsLayout. Starred Movies are stored in a database'
+            year = "2020"
+            stacks = 'Java, Retrofit, ViewModel, Room, Views & View Group'
+            projectlink = 'https://crypto-website-six.vercel.app/'
+            githublink = 'https://github.com/eniolaipoola/MoviesApp/tree/master'
             year="2023"
-            stacks=" React, CSS, Vercel, Coingecko API, Git & Github"
-            projectlink="https://crypto-website-six.vercel.app/"
-            githublink="https://github.com/jummie-jk/Crypto-website"
           />
           <hr />
           <ProjectCard
@@ -108,7 +110,6 @@ export const HomePage = () => {
             projectlink="https://dashboardd-kit.vercel.app/"
             githublink="https://github.com/jummie-jk/Dashboard"
           />
-      
           <hr />
         
         </div>
